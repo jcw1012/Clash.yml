@@ -3,55 +3,15 @@
 # 跑裸核用户请自行去掉下方控制面板模块的注释。
 # 机场订阅
 proxy-providers:
-  永恒:
-    url: "https://ghfast.top/https://raw.githubusercontent.com/mahdibland/V2RayAggregator/refs/heads/master/Eternity.yml"
+  Paily Connect:
+    url: "https://pai.yt/clash?tag=ct"
     type: http
+    interval: 86400
     health-check:
       enable: false
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连     
-  free18:
-    url: "https://ghfast.top/https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/v.txt"
-    type: http
-    health-check:
-      enable: false
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连   
-  mfuu:
-    url: "https://ghfast.top/https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml"
-    type: http
-    health-check:
-      enable: false
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连   
-  ishalumi:
-    url: "https://ghfast.top/https://raw.githubusercontent.com/ishalumi/proxy-node-collector/refs/heads/main/output/easy_proxy_asia.txt"
-    type: http
-    health-check:
-      enable: false
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连
-  niq0n0pin:
-    url: "https://ghfast.top/https://raw.githubusercontent.com/niq0n0pin/v2rayfree-nice-tracker/refs/heads/main/backup/nodes.txt"
-    type: http
-    health-check:
-      enable: false
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连
-  ts-sf:
-    url: "https://ghfast.top/https://raw.githubusercontent.com/ts-sf/fly/refs/heads/main/clash"
-    type: http
-    health-check:
-      enable: false
-      url: https://www.gstatic.com/generate_204
-      interval: 300
-    proxy: 直连
-
 # 节点信息
 proxies:
   - {name: 直连, type: direct}
